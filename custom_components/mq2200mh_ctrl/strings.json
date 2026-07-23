@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "MQ2200MH Control",
+        "description": "Connect to your MQ2200MH inverter via Modbus TCP.",
+        "data": {
+          "host": "Host",
+          "port": "Port",
+          "device_id": "Modbus device ID",
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to inverter. Check host and port."
+    },
+    "abort": {
+      "already_configured": "This inverter is already configured."
+    }
+  }
+}
